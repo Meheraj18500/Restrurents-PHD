@@ -1,0 +1,374 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+    border: none;
+    max-width: 100%;
+    width: 100%;
+    
+}
+:focus{
+    outline: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Yeseva One', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, ul, li, ol, p, .navbar{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+.ptb-80{
+    padding: 80px 0;
+}
+.ptb-100{
+    padding: 100px 0;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.ptb-50{
+    padding: 50px 0;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+.common_heading{
+    text-align: center;
+}
+.common_heading h2{
+    font-size:36px;
+    font-weight: 500;
+    color: #cc9900;
+}
+.common_heading .heading_shape{
+    width: 220px;
+    margin: 13px auto;
+}
+/* ------------Common White------------ */
+.common_heading_white{
+    text-align: center;
+}
+.common_heading_white h2{
+    font-size:36px;
+    font-weight: 500;
+    color: #fff;
+}
+.common_heading_white .heading_shape{
+    width: 220px;
+    margin: 13px auto;
+}
+.little_description{
+    display: block;
+    font-size: 17px;
+    line-height: 32px;
+    color: #4c4c4c;
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto !important;
+}
+.bg_2{
+    background: #f2f5f7;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 45px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s ease;
+    position: relative;
+}
+/* ==================== Basic setup end ====================*/
+header{
+    background: url('../img/header_bg.jpg') no-repeat left top / cover;
+}
+header .header_overlay{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.006) 0%, rgba(0,0,0,0.300455216266194) 100%);
+}
+/* ---------------- Navigation design ---------------- */
+nav{
+    background: transparent;
+    padding: 15px 0 !important;
+}
+nav .menu_logo{
+    width: 135px;
+}
+nav .navbar-nav li .nav-link{
+    color:#fff !important;
+    padding: 32px 15px !important;
+    margin: 0 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: 'Yeseva One', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-top: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+nav .navbar-nav li .nav-link:last-child{
+    margin-right: 0 !important;
+}
+nav .navbar-nav li .nav-link:hover{
+    border-top: 2px solid #fff;
+}
+nav .navbar-nav .social ul{
+    display: flex;
+}
+nav .navbar-nav .social ul li{
+    padding: 32px 10px !important;
+}
+nav .navbar-nav .social ul li a{
+    font-size: 18px;
+    color: #dab33e;
+}
+
+/* ------------ Hero area --------------- */
+.hero_area .hero_content{
+    width: 100%;
+    margin: 0 auto;
+    padding: 165px 0 175px;
+    text-align: center;
+}
+.hero_area .hero_content h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+.hero_area .hero_content .shape{
+    width: 300px;
+    margin: 25px auto;
+}
+.hero_area .hero_content a{
+    margin: 10px 10px;
+}
+
+
+.hero_area .hero_content a.last_button{
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #fff;
+}
+.hero_area .hero_content a.last_button:hover{
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #000;
+}
+.hero_area .hero_content a.first_button:hover{
+    background: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    color: #fff;
+}
+/* ======================== Header End ============================ */
+.about_section{
+    background: url('../img/pattern-2.png') repeat center center / cover;
+}
+.about_section .common_heading{
+    margin-top: 40px;
+}
+.about_section .about_img{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/* ======================== About End ============================ */
+
+.ingredients_section{
+    background: url('../img/section_bg.jpg') no-repeat center center / cover;
+}
+.ingredients_section .box{
+    background: rgba(0, 0, 0, .7);
+    padding: 75px 45px;
+    border-radius: 8px;
+}
+.ingredients_section p{
+    color: #fff;
+    padding-top: 20px;
+}
+.ingredients_section .ingredients_item{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.ingredients_section .ingredients_item img{
+    width: 90px;
+    height: 90px;
+    margin: 0 20px;
+}
+/* ======================== Ingredients End ============================ */
+
+.package_section{
+    background: url('../img/pattern-2.png') repeat center center / cover;
+}
+.package_section .prodict_item{
+    padding: 0px 10px;
+    margin: 12px 30px;
+    position: relative;
+}
+.package_section .prodict_item.special{
+    border: 1px solid #e2d098;
+    margin-top: 20px;
+}
+.package_section .prodict_item.special::before{
+    content: 'Special';
+    position: absolute;
+    padding: 3px 12px;
+    background: #dab33e;
+    bottom: 100%;
+    right: 0;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.package_section .prodict_item .title{
+    display: flex;
+    justify-content: space-between;
+    color: #cc9900;
+    border-bottom: 1px solid #dbc47f;
+    padding: 10px 0;
+}
+/* ======================== Package End ============================ */
+
+.review_section{
+    background: url('../img/section_bg2.jpg') no-repeat center center / cover;
+}
+.review_section .box{
+    background: rgba(0, 0, 0, .7);
+    padding: 75px 45px;
+    border-radius: 8px;
+}
+.review_section p{
+    color: #dde0df;
+    padding-top: 30px;
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+}
+.review_section p.little_description::before{
+    content: '\f10d';
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600;
+    position: absolute;
+    top: -5px;
+    font-size: 20px;
+    left: -20px;
+
+}
+.review_section p.author_name{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px !important;
+}
+/* ======================== Review End ============================ */
+
+.book_section{
+    background: url('../img/pattern-1.png') repeat center center / cover;
+}
+.book_section .book_box{
+    width: 80%;
+    margin: 0 auto;
+}
+.book_section p{
+    color: #9c9c9c;
+}
+.book_section .book_box label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #cc9900;
+    margin: 5px 0 !important;
+    padding-top: 15px;
+}
+.book_section .book_box .book_control{
+    width: 100%;
+    height: 38px;
+    padding: 0 12px;
+    border: 2px solid #c8c6c6;
+}
+.book_section .book_box .book_control:focus{
+    border: 2px solid #cc9900;
+}
+.book_section .book_box .book_control::placeholder{
+    font-size: 16px;
+    font-style: italic;
+}
+.book_section .book_box .btn_book{
+    display: block;
+    height: 38px;
+    background: #cc9900;
+    border: 2px solid #cc9900;
+    padding: 0 50px;
+    color: #fff;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+.book_section .book_box .btn_book:hover{
+    background: #af8402;
+}
+/* ======================== Book Section End ============================ */
+
+.footer_section{
+    background: #191919;
+}
+.footer_section .common_heading_white h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 45px;
+    text-transform:capitalize;
+}
+.footer_section .widget .little_description,
+.footer_section .widget{
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+}
+.footer_section .widget strong{
+    font-size: 17px;
+    font-weight: 600;
+}
+.footer_section .widget .payment{
+    width: 50%;
+    margin: 60px auto 0;
+}
+.footer_section .widget ul{
+    margin-top: 53px !important;
+}
+.footer_section .widget ul a{
+    margin: 0 8px;
+    font-size: 18px;
+    color: #fff;
+}
+/* ======================== Footer End ============================ */
+
